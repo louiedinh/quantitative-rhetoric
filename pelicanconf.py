@@ -34,5 +34,6 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['extra/CNAME']
+STATIC_PATHS = ['extra/CNAME', 'notes', 'notebooks', 'static']
+ARTICLE_EXCLUDES = ['notebooks', 'static']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
