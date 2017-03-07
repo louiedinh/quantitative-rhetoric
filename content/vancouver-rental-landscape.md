@@ -1,5 +1,5 @@
 Title:Vancouver Rental Landscape
-Date: 2017-01-28  
+Date: 2017-03-03 
 Category: Vancouver Real Estate
 
 
