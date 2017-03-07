@@ -55,3 +55,5 @@ Even this high level view of the hard data allows us to draw some conclusions.
 3. Rent on the east side is much cheaper than the west side.
 
 In the next post, we will explore the factors that lead to higher prices and what you can expect to rent for in each neigbhourhood.
+
+Thanks to Charles, Mya, Maude, Ganesh, Simon and Gilbert for early comments and feedback.
