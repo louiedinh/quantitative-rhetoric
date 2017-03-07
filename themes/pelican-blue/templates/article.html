@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<meta name="twitter:creator" content="{{ TWITTER_USERNAME }}">
+<meta name="twitter:url" content="{{ SITEURL }}/{{ article.url }}">
+<meta name="twitter:title" content="{{ SITENAME }} ~ {{ article.title }}">
+<meta name="twitter:description" content="{{ article.summary|striptags|escape }}">
+
+<!-- Facebook Meta Data -->
+<meta property="og:title" content="{{ SITENAME }} ~ {{ article.title }}" />
+<meta property="og:description" content="{{ article.summary|striptags|escape  }}" />
+<meta property="og:image" content="" />
+{% endblock head %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block content %}
+<section id="content">
+    <article>
+        <h2 class="post_title post_detail"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title }}">{{ article.title }}</a></h2>
+        <div class="entry-content blog-post">
+            {{ article.content }}
+        </div>
+
+		<!-- Begin MailChimp Signup Form -->
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
+		<div id="mc_embed_signup">
+		<form action="//ldinh.us7.list-manage.com/subscribe/post?u=8ca0c45c82ef713b79a588f83&amp;id=3663552ae5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+			<label for="mce-EMAIL">Subscribe to our mailing list</label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8ca0c45c82ef713b79a588f83_3663552ae5" tabindex="-1" value=""></div>
+			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			</div>
+		</form>
+		</div>
+		<!--End mc_embed_signup-->
+
+        <div class="post_list">
+            <span>By </span>
+            <a href="{{ SITEURL }}/{{ article.author.url }}">@{{ article.author }}</a>
+            <span> in </span>
+            <span class="post_category"><a href="{{ SITEURL }}/{{ article.category.url }}" rel="bookmark" title="Permalink to {{ article.category|striptags }}">[ {{ article.category }} ]</a></span>
+            <span class="post_date">{{ article.locale_date }}</span>
+            <div><span>Tags : </span>
+                {% if article.tags %}
+                {% for tag in article.tags %}
+                <span><a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}, </a></span>
+                {% endfor %}
+                {% endif %}
+            </div>
+
+            <div class="entry-social">
+                <span class="twitter"><a target="_blank" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;" title="Twitter" href="https://twitter.com/share?url={{ SITEURL }}/{{ article.url }}&text={{ article.title }}&via={{TWITTER_USERNAME}}"><img src="{{ SITEURL }}/theme/images/icons/twitter-s.png"></a></span>
+
+                <span class="gplus"><a target="_blank" title="Google +" href="https://plus.google.com/share?url={{ SITEURL }}/{{article.url}}&hl=fr" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img src="{{ SITEURL }}/theme/images/icons/google-s.png"></a></span>
+
+                <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;" href="https://www.facebook.com/sharer.php?u={{ SITEURL }}/{{article.url}}&t={{ article.title }}"><img src="{{ SITEURL }}/theme/images/icons/facebook-s.png"></a></span>
+
+                <a  target="_blank" title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ SITEURL }}/{{ article.url }}&title={{ article.title }}" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img src="{{ SITEURL }}/theme/images/icons/linkedin-s.png"></a>
+
+                <span class="mail"><a href="mailto:?subject={{ article.title }}&amp;body=Viens découvrir un article à propos de [{{ article.title }}] sur le site de {{ AUTHOR }}. {{ SITEURL }}/{{article.url}}" title="Share by Email" target="_blank"><img src="{{ SITEURL }}/theme/images/icons/mail-s.png"></a></span>
+            </div>
+        </div>
+        {% if DISQUS_SITENAME %}
+        <div class="comments">
+            <h2>Comments !</h2>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+            var disqus_identifier = "{{ article.url }}";
+            (function() {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'https://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] ||
+                 document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            </script>
+        </div>
+        {% endif %}
+    </article>
+</section>
+{% endblock %}
