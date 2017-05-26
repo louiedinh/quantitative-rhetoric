@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Louie Dinh'
-SITENAME = 'Quantiative Rhetoric'
+SITENAME = 'Quantitative Rhetoric'
 SITEURL = ''
 
 PATH = 'content'
