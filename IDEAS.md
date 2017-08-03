@@ -22,8 +22,9 @@ Predictions about the future
 Product comparisons
 Define something
 
-Post Ideas
-==========
-- Monthly rental report
-- Are you getting a good deal on your rental? (neighbhourhood comparables)
-- Rent versus buy calculator, with pre-populated values.
+Ideas
+====
+* Deep Context, Vertical AI rather than Journeyman Idealist 
+ - https://www.linkedin.com/pulse/hard-thing-software-development-jesse-watson?trk=v-feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_content%3B%2F3LxdKJjmdRThfXQYWKv8Q%3D%3D (Jesse Watson)
+ - Brad Crossford http://www.bradfordcross.com/blog/2017/6/13/vertical-ai-startups-solving-industry-specific-problems-by-combining-ai-and-subject-matter-expertise
+ - Journeyman Idealist as underleveraged  http://www.daedtech.com/the-polyglots-dilemma/

@@ -1,6 +1,7 @@
-# july-2017-rental-report
-Louie Dinh  
-2017-07-20  
+Title: Monthly Rental Report - July 2017
+Date: 2017-08-03
+Category: Vancouver Real Estate
+
 
 __Since people are asking about good rental deals, I'm going to start sending them out weekly. To avoid flooding the listings, I will only be sending it to 100 people. If you're interested, please [fill out this form](https://goo.gl/forms/di1oT4GQw2ukX1el2)__.
 
@@ -29,18 +30,18 @@ Median rental prices are up for almost all segments (Month over month changes in
 
 I don't know what the guys at StatsCan are doing, but they claim that inflation is sub 2%. This looks like inflation of housing costs to me. 
   
-__If you want to stay up-to-date on Vancouver's rental market, sign up for my newsletter in the navigation bar.__ 
+__Want to stay up-to-date on Vancouver's rental market? Sign up for my newsletter in the navigation bar.__ 
 
 
 
 
 
  
-![](july-2017-rental-report_files/figure-html/unnamed-chunk-1-1.png)<!-- -->![](july-2017-rental-report_files/figure-html/unnamed-chunk-1-2.png)<!-- -->
+![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-1-1.png)<!-- -->![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-1-2.png)<!-- -->
 
 
 
 Prices
-![](july-2017-rental-report_files/figure-html/unnamed-chunk-3-1.png)<!-- -->![](july-2017-rental-report_files/figure-html/unnamed-chunk-3-2.png)<!-- -->
+![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-3-1.png)<!-- -->![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-3-2.png)<!-- -->
 
 

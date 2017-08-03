@@ -37,5 +37,8 @@ THEME = 'themes/pelican-blue'
 #RELATIVE_URLS = True
 
 STATIC_PATHS = ['extra/CNAME', 'notes', 'notebooks', 'static']
-ARTICLE_EXCLUDES = ['notebooks', 'static']
+ARTICLE_EXCLUDES = ['notebooks', 'static', 'drafts']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+# Needs to go here because of the way we generate the signup
+GOOGLE_ANALYTICS = 'UA-39716444-3'
