@@ -1,5 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Quantitative Rhetoric</title><link href="http://quantitativerhetoric.com/" rel="alternate"></link><link href="http://quantitativerhetoric.com/feeds/vancouver-real-estate.atom.xml" rel="self"></link><id>http://quantitativerhetoric.com/</id><updated>2018-02-04T00:00:00-08:00</updated><entry><title>Monthly Rental Report - January 2018</title><link href="http://quantitativerhetoric.com/monthly-rental-report-january-2018.html" rel="alternate"></link><updated>2018-02-04T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2018-02-04:monthly-rental-report-january-2018.html</id><summary type="html">&lt;h2&gt;January Real Estate Happenings&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Quantitative Rhetoric</title><link href="http://quantitativerhetoric.com/" rel="alternate"></link><link href="http://quantitativerhetoric.com/feeds/vancouver-real-estate.atom.xml" rel="self"></link><id>http://quantitativerhetoric.com/</id><updated>2018-03-11T00:00:00-08:00</updated><entry><title>Case Studies in Renting Versus Buying</title><link href="http://quantitativerhetoric.com/case-studies-in-renting-versus-buying.html" rel="alternate"></link><updated>2018-03-11T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2018-03-11:case-studies-in-renting-versus-buying.html</id><summary type="html">&lt;p&gt;&lt;em&gt;"You should buy because renting is paying someone else's mortgage."&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We've all gotten this advice. And, like most unsolicited advice, it's wrong. Reality is messy, and many factors affect the outcome of a real estate purchase. In this post, I want to unpack why this claim is overly simplistic by looking directly at the numbers.&lt;/p&gt;
+&lt;p&gt;After running the numbers for three typical units across the Lower Mainland, we found renting and buying produce qualitatively similar results. After 25 years, both renting and owning leave you in very comparable situations. If the future looks similar to our recent past, owning has a slight edge over renting. This advantage comes from the leveraged growth of taking out a mortgage at historically low rates. Owning a home is more a forced savings plan than a get-rich-quick scheme.  &lt;/p&gt;
+&lt;p&gt;To do this comparison, we found three units with both rental and sales listings. For each unit, we first tally up the costs of both owning and renting. Then, we use these numbers to simulate two parallel universes in the computer; one each for renting and owning. Finally, we "fast-forward" 25 years to see who comes out financially ahead. &lt;/p&gt;
+&lt;p&gt;OK. On to the gory details. Let's start our analysis with the costs side of the equation. &lt;/p&gt;
+&lt;h2&gt;Tallying Up Renting and Ownership Costs&lt;/h2&gt;
+&lt;p&gt;We will define a cost as anything that you pay and disappears afterwards. &lt;/p&gt;
+&lt;p&gt;The cost of renting is clear. Every month you pay $X to occupy that housing unit. When the month is over, you don't own anything. The money you handed over was in exchange for the shelter received. That's basically it for the rental side.&lt;/p&gt;
+&lt;p&gt;The costs of owning are more complicated because they are sprinkled around. First the obvious stuff: property taxes, insurance and maintenance. These costs go towards the city, and towards keeping your home in a livable state. They are similar to rent because you're just paying to occupy the unit. You don't get anything extra for paying these costs.&lt;/p&gt;
+&lt;p&gt;For owning costs, the mortgage payment is trickier. A mortgage is a savings plan and a loan rolled into one. Each month, part of your mortgage payment goes towards paying down capital, while the rest goes towards interest. You are paying this interest to the bank for borrowing their money. At the end of your term, you keep the capital, in the form of a house, but the interest disappears. Thus, the interest portion of the payment must be considered part of the cost of ownership. &lt;/p&gt;
+&lt;p&gt;In summary, there are non-recoverable costs associated with both renting and owning. When renting, you pay the whole amount to your landlord every month. When buying, you pay maintenance, property taxes, insurance and interest to the bank. Since the market (i.e what other landlords are listing units for) determines rent, it's possible that owners are paying more in costs than they are receiving in rent. Which side "wins" is not immediately obvious. To get a better understanding, let's take a look at three case studies pulled from our data.&lt;/p&gt;
+&lt;h2&gt;Three Case Studies&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Notes and Assumptions&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dollar values are not adjusted for inflation. &lt;/li&gt;
+&lt;li&gt;Where I couldn't find the exact numbers, I estimated to the best of my abilities. These are clearly marked. &lt;/li&gt;
+&lt;li&gt;In both buy and rent scenarios we have saved 20% of the purchase price. The renter invests the down payment and any difference into a a stock market index fund like the S&amp;amp;P 500. &lt;/li&gt;
+&lt;li&gt;Stock market average yearly return is 8% not adjusted for inflation.&lt;/li&gt;
+&lt;li&gt;Real estate average yearly returns are 3.9%, 4.6% and 6.7% for apartment, townhouse and detached respectively. These are the median real estate returns for the period of 2005-2017. See &lt;em&gt;Appendix&lt;/em&gt; for more details. &lt;/li&gt;
+&lt;li&gt;Rent, property taxes and maintenance grow at inflation. Mortgage payments are constant. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Comparison #1 - Condo In Downtown&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Property Details&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;550 Square Feet&lt;/li&gt;
+&lt;li&gt;1 Bedroom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rent&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$1600 / month [listed]&lt;/li&gt;
+&lt;li&gt;8% average investment growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Buy&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$600,000 purchase price [listed]&lt;/li&gt;
+&lt;li&gt;$285 / month strata fee [listed]&lt;/li&gt;
+&lt;li&gt;3.39% Mortgage rate [listed]&lt;/li&gt;
+&lt;li&gt;$1423 Property Tax (2016) [listed]&lt;/li&gt;
+&lt;li&gt;3.9% average real estate growth rate&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Starting Monthly Payment (mortgage + taxes + maintenance):&lt;/em&gt; $2,778&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="" src="/static/rent-versus-buy-post_files/figure-html/unnamed-chunk-2-1.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;h3&gt;Comparison #2 - Townhouse Near Metrotown&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Stats&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1300 Square Feet&lt;/li&gt;
+&lt;li&gt;3 Bedrooms&lt;/li&gt;
+&lt;li&gt;2.5 Bathrooms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rent&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$2800 / month [listed]&lt;/li&gt;
+&lt;li&gt;8% average investment growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Buy&lt;/strong&gt;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$988,000 purchase price [listed]&lt;/li&gt;
+&lt;li&gt;$557 / month strata fee [listed]&lt;/li&gt;
+&lt;li&gt;3.39% Mortgage rate [listed]&lt;/li&gt;
+&lt;li&gt;$1,884 Property Tax (2016) [listed]&lt;/li&gt;
+&lt;li&gt;Average growth rate of 4.6% [estimated]&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Starting Monthly Payment (mortgage + taxes + maintenance):&lt;/em&gt; $4,628&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+Townhouse in Metrotown. 
+{"link": "https://vancouver.craigslist.ca/van/apa/d/vancouver-brand-new-townhouse/6336064974.html", "baths": "2.5", "size": "1300", "price": "2800", "title": "Vancouver- Brand New Townhouse 3br near metrotown Available Now", "date": "2017-10-06 21:18", "longitude": -123.023604, "latitude": 49.232351, "beds": "3", "craigId": 6336064974}
+
+Link: https://www.zolo.ca/vancouver-real-estate/5530-ormidale-street
+5530-ormidale-street - 3BR, 2.5 Bath, Taxes: 1884.11, Fees: 557.22 / mnth, SqFt: 1300, Price: $988,800
+--&gt;
+
+&lt;p&gt;&lt;img alt="" src="/static/rent-versus-buy-post_files/figure-html/unnamed-chunk-3-1.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;h3&gt;Comparison Study #3 - Single Family Home On Dunbar&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Property Details&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2,683 Square Feet&lt;/li&gt;
+&lt;li&gt;5 Bedrooms&lt;/li&gt;
+&lt;li&gt;5 Bathrooms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Rent&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$5380 / month [listed]&lt;/li&gt;
+&lt;li&gt;8% average investment growth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Buy&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$3,388,000 purchase price [listed]&lt;/li&gt;
+&lt;li&gt;$2,823 / month maintenance average [estimated at 1% of house value]&lt;/li&gt;
+&lt;li&gt;3.39% Mortgage rate [listed]&lt;/li&gt;
+&lt;li&gt;$10,427 Property Tax [average 2016/2017] &lt;/li&gt;
+&lt;li&gt;Average growth rate of 6.7%&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Starting Monthly Payment (mortgage + taxes + maintenance):&lt;/em&gt; $17,101&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+Property Tax 2017: 2.55489 * 3,650,000 / 1000 = $9300
+Property Tax 2016: 3.16567 * 3,650,000 / 1000 = $11554
+Average: $10,427
+
+3493 W.20th Avenue
+Price: 3,388,000
+Rent: $5380
+
+5 Beds | 5 Baths | 2,683 sq  | House |
+2011 built | 3,794 lot sq 
+
+Estimating home maintnance to be between $5000 and $10000 / year. Set to midpoint.
+Source: https://www.theglobeandmail.com/globe-investor/personal-finance/household-finances/dont-let-home-maintenance-costs-crush-your-budget/article618105/?arc404=true
+--&gt;
+
+&lt;p&gt;&lt;img alt="" src="/static/rent-versus-buy-post_files/figure-html/unnamed-chunk-4-1.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="/static/rent-versus-buy-post_files/figure-html/unnamed-chunk-5-1.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Unit Type&lt;/th&gt;
+&lt;th&gt;Buy Result&lt;/th&gt;
+&lt;th&gt;Rent Result&lt;/th&gt;
+&lt;th&gt;Pct Diff&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Condo&lt;/td&gt;
+&lt;td&gt;$1.56M&lt;/td&gt;
+&lt;td&gt;$1.55M&lt;/td&gt;
+&lt;td&gt;%0.94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Townhouse&lt;/td&gt;
+&lt;td&gt;$3.04M&lt;/td&gt;
+&lt;td&gt;$2.4M&lt;/td&gt;
+&lt;td&gt;%25.84&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Family&lt;/td&gt;
+&lt;td&gt;$17.14M&lt;/td&gt;
+&lt;td&gt;$14.5M&lt;/td&gt;
+&lt;td&gt;%17.81&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;After 25 years, the financial positions of the renter and owner are roughly comparable. While the owner comes out ahead in all three scenarios, the largest gap is a 25% difference. Contrary to the mantra about throwing money away, the renter is not left empty-handed. At current price/rent levels, purchasing a condo appears to offer no benefits. Purchasing a townhome or detached home does result in a better outcome, but it takes over 15 years before owning pays off. &lt;/p&gt;
+&lt;p&gt;Barring exceptional foresight into when to buy or sell, the contrast between buying and investing isn't drastic; a difference in degree, rather than a difference in kind. The last few years has seen exceptional housing appreciation, and I see some significant headwind to RE growth in the near future. &lt;/p&gt;
+&lt;p&gt;The big reason why buying comes out ahead in the last two cases is leverage. When you buy, you're effectively borrowing a huge chunk of money to bet on real estate. If your purchase appreciates, then your gain is amplified. Leverage can be similarly used to amplify your gains on the stock market. The difference is that a bank will loan you 4x your money to buy real estate, but no where close to that for buying stocks. Be careful though, the amplification applies to both gains and losses. &lt;/p&gt;
+&lt;p&gt;If you think my numbers are unrealistic, try plugging in your own. I've linked to two different calculators in the resources section. Try the Holy Potato calculator if you're into spreadsheets. If not, the New York Times calculator is much more visual.  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; - If you're on the fence about renting or buying, flip a coin. Financially, it doesn't matter too much which way you go. Just make sure to invest the difference if you're a renter. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Stephan Punwasi, Lara Thompson, Kiri Nichol, Ben Rabidoux, and John Robertson for their feedback on drafts of this post.&lt;/em&gt; &lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Much digital ink has been spilled for this rent-versus-buy debate. Here are a few links that I found helpful.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.holypotato.net/?p=1909"&gt;Holy Potato&lt;/a&gt; discusses the rent-versus-buy, also focusing on the Canadian market. He covers extensively covers the factors that go into both sides of the equation. His post also comes with a &lt;a href="https://docs.google.com/spreadsheets/d/14KJe4bprkDhT_fQjUxc5FhZmd2JdTXskBuGmS--F0FQ/edit"&gt;spreadsheet&lt;/a&gt; that lets you play with different future scenarios.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html"&gt;The New York Times&lt;/a&gt; has an amazing visualization that shows you the impact of different factors on rent-versus-buy. &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cbc.ca/bc/news/bc-120315-vancouver-renting-buying-analysis.pdf"&gt;CBC&lt;/a&gt; carried out a similar rent-vs-buy analysis for a Gastown condo in 2012. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you'd like to peek at the code, I've posted it all on &lt;a href="https://github.com/louiedinh/data-analyses/blob/master/vancouver-cl-rentals/Rent-Vs-Buy//static/rent-versus-buy-post.Rmd"&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Appendix&lt;/h2&gt;
+&lt;p&gt;"Prediction is very difficult, especially about the future." -Niels Bohr&lt;/p&gt;
+&lt;p&gt;An accurate rate of future real estate price growth is key to our rent-versus-buy comparison. It is also probably the hardest thing to nail down. In this article I used historical price growth between 2005 and 2016 to project forward. The hope is that the future looks approximately like the past. &lt;/p&gt;
+&lt;p&gt;As a proxy for price growth, I used the &lt;a href="https://www.crea.ca/housing-market-stats/mls-home-price-index/hpi-tool/"&gt;HPI&lt;/a&gt; for Greater Vancouver. 
+For the period of 2005-2016, price growth was highly related to year bought. The graph below shows the &lt;a href="https://www.investopedia.com/terms/c/cagr.asp"&gt;compounded-annual-growth-rate&lt;/a&gt;, by year bought and sold. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/static/rent-versus-buy-post_files/figure-html/unnamed-chunk-6-1.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;If we assume that people buy when they have saved a sufficient down payment, rather than timing for a dip in the market, then the return profile will be similar to randomly sampling the start year. Similarly, let's just assume people sell in a random year when they hit retirement. We just take these CAGRs and use the median as our future growth rates. &lt;/p&gt;
+&lt;p&gt;The result is 6.69%, 4.63%, 3.9% for a single family home, town house and condo respectively.&lt;/p&gt;</summary></entry><entry><title>Monthly Rental Report - January 2018</title><link href="http://quantitativerhetoric.com/monthly-rental-report-january-2018.html" rel="alternate"></link><updated>2018-02-04T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2018-02-04:monthly-rental-report-january-2018.html</id><summary type="html">&lt;h2&gt;January Real Estate Happenings&lt;/h2&gt;
 &lt;p&gt;The coming of the new year brought with it the universal mortgage stress test. This is a significant change to the Canadian real estate market. Starting January 1st, all mortgage applicants will have to qualify at the greater of the contract rate plus two percent, or the Bank of Canada's 5 year benchmark. This means many people will be forced to buy less house than before. Our government must be growing concerned with how much we are borrowing to buy housing.&lt;/p&gt;
 &lt;p&gt;More locally, the empty homes tax deadline is now past. As of January 29th, there were still 11% of homes that without a declaration. Owners that leave their property vacant face a stiff 1% tax on the assessed valume of the home. It's a bit too early to tell if the EHT is working, but so far the data is encouraging. Our numbers show that January set a record for number of listings recorded to date. The new year usually brings a surge in listings, but this month we saw ~15% more listings than our previous record. If this increased supply also drives prices down over a few months, then I'd chalk that up as win.&lt;/p&gt;
 &lt;p&gt;Now, on to the numbers.&lt;/p&gt;
