@@ -168,7 +168,7 @@ Much digital ink has been spilled for this rent-versus-buy debate. Here are a fe
 * [The New York Times](https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html) has an amazing visualization that shows you the impact of different factors on rent-versus-buy. 
 * [CBC](http://www.cbc.ca/bc/news/bc-120315-vancouver-renting-buying-analysis.pdf) carried out a similar rent-vs-buy analysis for a Gastown condo in 2012. 
 
-If you'd like to peek at the code, I've posted it all on [Github](https://github.com/louiedinh/data-analyses/blob/master/vancouver-cl-rentals/Rent-Vs-Buy//static/rent-versus-buy-post.Rmd).
+If you'd like to peek at the code, I've posted it all on [Github](https://github.com/louiedinh/data-analyses/blob/master/vancouver-cl-rentals/Rent-Vs-Buy/case-studies-post-with-grant.Rmd).
 
 Appendix
 --------
