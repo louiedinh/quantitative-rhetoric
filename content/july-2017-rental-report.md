@@ -43,5 +43,3 @@ _Want to stay up-to-date on Vancouver's rental market? Sign up for my newsletter
 
 Prices
 ![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-3-1.png)<!-- -->![](/static/july-2017-rental-report_files/figure-html/unnamed-chunk-3-2.png)<!-- -->
-
-
