@@ -1,5 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Quantitative Rhetoric</title><link href="http://quantitativerhetoric.com/" rel="alternate"></link><link href="http://quantitativerhetoric.com/feeds/vancouver-real-estate.atom.xml" rel="self"></link><id>http://quantitativerhetoric.com/</id><updated>2019-01-21T00:00:00-08:00</updated><entry><title>Monthly Rental Report - December 2018</title><link href="http://quantitativerhetoric.com/monthly-rental-report-december-2018.html" rel="alternate"></link><updated>2019-01-21T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2019-01-21:monthly-rental-report-december-2018.html</id><summary type="html">&lt;h2&gt;December Real Estate Happenings&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Quantitative Rhetoric</title><link href="http://quantitativerhetoric.com/" rel="alternate"></link><link href="http://quantitativerhetoric.com/feeds/vancouver-real-estate.atom.xml" rel="self"></link><id>http://quantitativerhetoric.com/</id><updated>2019-02-10T00:00:00-08:00</updated><entry><title>Monthly Rental Report - January 2019</title><link href="http://quantitativerhetoric.com/monthly-rental-report-january-2019.html" rel="alternate"></link><updated>2019-02-10T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2019-02-10:monthly-rental-report-january-2019.html</id><summary type="html">&lt;h2&gt;January Real Estate Happenings&lt;/h2&gt;
+&lt;p&gt;With media attention focused on money laundering and spending scandals in BC legislature, housing news was a bit slow in January. One story did break through though: the &lt;em&gt;collapse&lt;/em&gt; of the sales market. Instead of rehashing every media outlet, I'm going to try and put our housing market in context. Specifically, we will examine RBC's affordability measure and how it looked historically. Don't worry, it's pretty intuitive.&lt;/p&gt;
+&lt;p&gt;The RBC affordability measure is the proportion of median household income required to service mortgage, property taxes, and utilities based on average market prices. So if it's 75, that means 75% of the "typical" household's income is required to service the costs of owning the "typical" home.&lt;/p&gt;
+&lt;p&gt;Let's dive into the weeds a bit. To find the median household income within a city, take all households within that city and line them up from least income to most income. The median income is the household that falls exactly in the middle. For example, the 2016 census pegged the median household income in the City of Vancouver at $65,327. This number tends to grow a few percentage points a year to reflect inflation and growing productivity.&lt;/p&gt;
+&lt;p&gt;Looking at RBC's &lt;a href="http://www.rbc.com/newsroom/_assets-custom/pdf/122118-housing-affordability-report.pdf"&gt;latest report&lt;/a&gt;, the affordability measure currently sits at 52.4 and 117.3 for condos and detached homes respectively.&lt;/p&gt;
+&lt;p&gt;Q3 2018 - Vancouver&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Average Condo Price: $667,000, Affordability Measure: 52.4
+Average Detached Price: $1,562,300, Affordability Measure: 117.3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The report describes the current levels as, "pretty much the highest it's ever been in Canadian history". Let's take a look at two snapshots of the past.&lt;/p&gt;
+&lt;p&gt;Q3 2008&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Vancouver Condo Cost: $350,300, Affordability: 43.1 (was 45.1 in Q2 2008)
+Vancouver Detatched Cost: $612,400, Affordability:74.8 (was 78.8 in Q2 2008)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Q2 2015 - Vancouver&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Vancouver Condo Cost: $421,200, Affordability: 40.1
+Vancouver Detached Cost: $967,500, Affordability: 88.6
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I picked these snapshots because it represents the peak and trough of the last affordability cycle. The peak probably occurred in Q2 2008, but I couldn't find that report.&lt;/p&gt;
+&lt;p&gt;So there you have it, housing in Vancouver has always been pretty expensive, but today's prices are astronomical even by historical standards. These high prices, combined with the rising interest environment and stress test are likely a major contributor to the collapse in sales.&lt;/p&gt;
+&lt;p&gt;Onto the rental stats!&lt;/p&gt;
+&lt;h2&gt;January Rental Stats&lt;/h2&gt;
+&lt;p&gt;In January, we saw 5,485 units listed. This was a 13.7% increase from December but -3.92% compared to January 2018. &lt;/p&gt;
+&lt;p&gt;Even though rental volume was slightly lower than last January, rents are all down YoY. One bedroom rents were down -2.5% YoY, two bedrooms -0.1% and three bedrooms are down -4.9% YoY. This puts rents back to July 2017 figures, close to when I first started reporting rents here. Given inflation and rising wages, rents are actually more affordable now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prices&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 bedrooms $1900 (0%)&lt;/li&gt;
+&lt;li&gt;2 bedrooms $2647.50 (+1.8%)&lt;/li&gt;
+&lt;li&gt;3 bedrooms $2900 (-3.3%)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Furnished&lt;/strong&gt;:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Beds&lt;/th&gt;
+&lt;th&gt;Unfurnished Volume&lt;/th&gt;
+&lt;th&gt;Furnished Volume&lt;/th&gt;
+&lt;th&gt;Furnished Pct&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1663 (+16.4%)&lt;/td&gt;
+&lt;td&gt;790 (+5.6%)&lt;/td&gt;
+&lt;td&gt;32.6%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1651 (+15.4%)&lt;/td&gt;
+&lt;td&gt;639 (+16.8%)&lt;/td&gt;
+&lt;td&gt;27.9%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;393 (+11.0%)&lt;/td&gt;
+&lt;td&gt;103 (-2.8%)&lt;/td&gt;
+&lt;td&gt;20.8%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Beds&lt;/th&gt;
+&lt;th&gt;Unfurnished Price&lt;/th&gt;
+&lt;th&gt;Furnished Price&lt;/th&gt;
+&lt;th&gt;Premium&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;$1800 (0%)&lt;/td&gt;
+&lt;td&gt;$2300 (2.2%)&lt;/td&gt;
+&lt;td&gt;27.8%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;$2450 (0%)&lt;/td&gt;
+&lt;td&gt;$3200 (-1.5%)&lt;/td&gt;
+&lt;td&gt;30.6%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;$2775 (-0.9%)&lt;/td&gt;
+&lt;td&gt;$4000 (-10.1%)&lt;/td&gt;
+&lt;td&gt;44.1%&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;If you want to stay up-to-date on Vancouver's rental market, sign up for my newsletter in the navigation bar.&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/volumes-1.png" /&gt;&lt;!-- --&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/volumes-2.png" /&gt;&lt;!-- --&gt;&lt;img alt="" src="january-2019-rental-report_files/figure-html/volumes-3.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/prices-1.png" /&gt;&lt;!-- --&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/prices-2.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/furnished-1.png" /&gt;&lt;!-- --&gt;&lt;img alt="" src="/static/january-2019-rental-report_files/figure-html/furnished-2.png" /&gt;&lt;!-- --&gt;&lt;/p&gt;</summary></entry><entry><title>Monthly Rental Report - December 2018</title><link href="http://quantitativerhetoric.com/monthly-rental-report-december-2018.html" rel="alternate"></link><updated>2019-01-21T00:00:00-08:00</updated><author><name>Louie Dinh</name></author><id>tag:quantitativerhetoric.com,2019-01-21:monthly-rental-report-december-2018.html</id><summary type="html">&lt;h2&gt;December Real Estate Happenings&lt;/h2&gt;
 &lt;p&gt;Hey everyone, sorry for the delayed report. I was on vacation for most of January and didn't manage to get this report out until now. For faster turn-around, I'll skip the RE news this report. Regular programming will resume next month!&lt;/p&gt;
 &lt;h2&gt;December Rental Stats&lt;/h2&gt;
 &lt;p&gt;Consistent with the previous two years, listings dropped from November to December. We saw 4,824 listings for a 8.8% decrease. This is a 3.8% YoY increase compared to 2017. &lt;/p&gt;
