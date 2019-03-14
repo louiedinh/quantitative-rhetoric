@@ -22,7 +22,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Better Dwelling', 'https://betterdwelling.com/'),
         ('Vancouver Condo Info', 'http://vancouvercondo.info/'),
-        ('Mountain Doodles', 'http://doodles.mountainmath.ca/'))
+        ('Mountain Doodles', 'http://doodles.mountainmath.ca/'),
+        ('Hope Street Property Management (Data Partner)', 'https://hopestreet.ca/en/news'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/louiedinh'),
